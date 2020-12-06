@@ -1,5 +1,5 @@
 # files
-## 전국철도역사정보표준데이터.xlsx
+## 전국철도역사정보표준데이터.csv
 ### 원본
 [/전국철도역사정보표준데이터](https://github.com/gnlow/files/tree/master/%EC%A0%84%EA%B5%AD%EB%8F%84%EC%8B%9C%EC%B2%A0%EB%8F%84%EC%97%AD%EC%82%AC%EC%A0%95%EB%B3%B4%ED%91%9C%EC%A4%80%EB%8D%B0%EC%9D%B4%ED%84%B0)
 ### 출처
