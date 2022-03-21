@@ -22,13 +22,13 @@ const write =
 const simple = 
     (name: string, year: string) =>
     pipe(
-        () => Deno.readTextFile(name + ".json"),
+        () => Deno.readTextFile(`${year}/${name}.json`),
         T.chain(parse),
         T.chain(write(`${name}/${year}.csv`)),
     )
 
 for await (const dir of Deno.readDir("./")) {
-    if (dir.isDirectory) {
+    if (dir.isDirectory && dir.name != "boy" && dir.name != "girl") {
         await simple("boy", dir.name)()
         await simple("girl", dir.name)()
     }
